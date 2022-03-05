@@ -9,11 +9,15 @@ module.exports = ({ env }) => {
       connections: {
         default:{
           connector:'bookshelf',
-          host: config.host,
+          settings: {
+            client:'postgres',
+            host: config.host,
           port: config.port,
           database: config.database,
           username: config.user,
           password: config.password
+          }
+          
         },
         options: {
           ssl: false
