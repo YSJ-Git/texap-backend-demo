@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "home6_app_screenshots",
+  "info": {
+    "name": "home 6 App Screenshots",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "SCREENSHOTS"
+    },
+    "title": {
+      "type": "string",
+      "default": "Easily Customize in One Minute"
+    },
+    "tabList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.screenshots-tab-list"
+    },
+    "screenshot": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tab-panel.screenshots-tab-panel"
+    }
+  }
+}

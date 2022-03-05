@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_page_titles",
+  "info": {
+    "name": "Blog Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Blog",
+      "required": true
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "activeText": {
+      "type": "string",
+      "default": "Blog",
+      "required": true
+    }
+  }
+}

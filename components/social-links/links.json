@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_social_links_links",
+  "info": {
+    "name": "links",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

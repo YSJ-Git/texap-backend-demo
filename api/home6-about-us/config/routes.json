@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-6-about-us",
+      "handler": "home6-about-us.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-6-about-us",
+      "handler": "home6-about-us.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-6-about-us",
+      "handler": "home6-about-us.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-two-key-features",
+      "handler": "home-two-key-features.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-two-key-features",
+      "handler": "home-two-key-features.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-two-key-features",
+      "handler": "home-two-key-features.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

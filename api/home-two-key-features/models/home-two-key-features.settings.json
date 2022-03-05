@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_two_key_features",
+  "info": {
+    "name": "home Two Key Features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "KEY FEATURES",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Most Probably Included Best Features Ever"
+    },
+    "longDec": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnOneText": {
+      "type": "string",
+      "default": "Start Free Trial",
+      "required": true
+    },
+    "btnOneUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/sign-in"
+    },
+    "btnTwoText": {
+      "type": "string",
+      "default": "See All Features",
+      "required": true
+    },
+    "btnTwoUrl": {
+      "type": "string",
+      "default": "/features-2",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-features-list.key-features"
+    }
+  }
+}

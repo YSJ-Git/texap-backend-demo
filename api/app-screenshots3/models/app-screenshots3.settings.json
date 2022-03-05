@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_screenshots3s",
+  "info": {
+    "name": "app Screenshots 3",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "APP SCREENS",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Beautifully Crafted All App Screenshots"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "app-screenshots.screenshots"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Start Free Trial"
+    },
+    "btnUrl": {
+      "type": "string",
+      "default": "/sign-in"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "best_app_evers",
+  "info": {
+    "name": "best App Ever",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "best-app-features.features",
+      "required": true
+    },
+    "btnOneText": {
+      "type": "string",
+      "required": true
+    },
+    "btnOneUrl": {
+      "type": "string",
+      "required": true
+    },
+    "btnTwoText": {
+      "type": "string",
+      "required": true
+    },
+    "btnTwoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

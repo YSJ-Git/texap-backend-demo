@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/how-it-works-page-title",
+      "handler": "how-it-works-page-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/how-it-works-page-title",
+      "handler": "how-it-works-page-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/how-it-works-page-title",
+      "handler": "how-it-works-page-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

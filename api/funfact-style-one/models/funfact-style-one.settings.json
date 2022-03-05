@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "funfact_style_ones",
+  "info": {
+    "name": "funfact Style One",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "funfacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "funfact-style-one.funfact"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_page_titles",
+  "info": {
+    "name": "team Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Team",
+      "required": true
+    },
+    "homePage": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homePageUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePage": {
+      "type": "string",
+      "required": true,
+      "default": "Team"
+    }
+  }
+}

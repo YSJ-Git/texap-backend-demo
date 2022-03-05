@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_screenshots2s",
+  "info": {
+    "name": "app Screenshots 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "APP SCREENS",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Beautifully Crafted All App Screenshots",
+      "required": true
+    },
+    "screenshots": {
+      "type": "component",
+      "repeatable": true,
+      "component": "app-screenshots.screenshots"
+    }
+  }
+}

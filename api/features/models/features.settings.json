@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "features",
+  "info": {
+    "name": "Features"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-list.features"
+    }
+  }
+}

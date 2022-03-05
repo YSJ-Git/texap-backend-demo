@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_forms",
+  "info": {
+    "name": "contact Form",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Get in Touch",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "default": "The IT industry offers a sea of options, from platforms, programming languages methodologies, technologies, tools, and more.",
+      "required": true
+    },
+    "googleMap": {
+      "type": "text",
+      "required": false
+    },
+    "contactInfoTitle": {
+      "type": "string",
+      "default": "Have any question in mind please call or mail us",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "default": "(+321) 895-980 008, (+321) 895-980 008",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "default": "hello@texap.com, info@texap.com"
+    },
+    "location": {
+      "type": "string",
+      "default": "121 King St, Melbourne VIC 3000, Australia.",
+      "required": true
+    }
+  }
+}

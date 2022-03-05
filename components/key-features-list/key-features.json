@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_key_features_list_key_features",
+  "info": {
+    "name": "keyFeatures",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "iconBgClass": {
+      "type": "string",
+      "required": true,
+      "default": "icon"
+    }
+  }
+}

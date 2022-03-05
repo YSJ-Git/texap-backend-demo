@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_funfact_style_one_funfacts",
+  "info": {
+    "name": "funfact",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "sign": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "BgClass": {
+      "type": "string",
+      "required": true,
+      "default": "funfacts-box"
+    }
+  }
+}

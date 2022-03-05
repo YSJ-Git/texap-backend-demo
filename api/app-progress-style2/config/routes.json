@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app-progress-style-2",
+      "handler": "app-progress-style2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/app-progress-style-2",
+      "handler": "app-progress-style2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app-progress-style-2",
+      "handler": "app-progress-style2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

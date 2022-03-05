@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_about_features_list_about_features",
+  "info": {
+    "name": "about Features",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "longText": {
+      "type": "text"
+    }
+  }
+}

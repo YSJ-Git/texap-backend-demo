@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_features_feature_style_twos",
+  "info": {
+    "name": "feature Style Two",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "iconbgClass": {
+      "type": "string",
+      "default": "icon",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "galleries",
+  "info": {
+    "name": "gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Gallery"
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePageText": {
+      "type": "string",
+      "required": true,
+      "default": "Gallery"
+    },
+    "galleryImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery-image.gallery"
+    }
+  }
+}

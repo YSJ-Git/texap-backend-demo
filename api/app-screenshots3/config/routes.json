@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app-screenshots-3",
+      "handler": "app-screenshots3.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/app-screenshots-3",
+      "handler": "app-screenshots3.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app-screenshots-3",
+      "handler": "app-screenshots3.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

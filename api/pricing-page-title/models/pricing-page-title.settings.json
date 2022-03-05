@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_page_titles",
+  "info": {
+    "name": "pricing Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Pricing Plan",
+      "required": true
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "activePageText": {
+      "type": "string",
+      "default": "Pricing Plan",
+      "required": true
+    }
+  }
+}

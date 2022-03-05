@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banner4s",
+  "info": {
+    "name": "home Banner 4",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Get your 14 days free trail"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "The Revolutionary App That Makes Your Life Easier Than Others"
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Start Free Trial"
+    },
+    "btnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/sign-in"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

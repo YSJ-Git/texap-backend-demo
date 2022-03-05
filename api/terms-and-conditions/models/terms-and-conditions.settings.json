@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_and_conditions",
+  "info": {
+    "name": "terms And Conditions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Terms & Conditions"
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePage": {
+      "type": "string",
+      "default": "Terms & Conditions",
+      "required": true
+    },
+    "longText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

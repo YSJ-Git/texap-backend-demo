@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app-progress",
+      "handler": "app-progress.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/app-progress",
+      "handler": "app-progress.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app-progress",
+      "handler": "app-progress.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

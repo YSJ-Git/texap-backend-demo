@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_feedback_style5s",
+  "info": {
+    "name": "client Feedback Style 5",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TabPanel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback-tab-panel.feedback-tab"
+    },
+    "TabList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback-clinet.feedback-tab-list"
+    }
+  }
+}

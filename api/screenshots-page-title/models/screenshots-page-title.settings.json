@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "screenshots_page_titles",
+  "info": {
+    "name": "screenshots Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Screenshots",
+      "required": true
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePage": {
+      "type": "string",
+      "default": "Screenshots",
+      "required": true
+    }
+  }
+}

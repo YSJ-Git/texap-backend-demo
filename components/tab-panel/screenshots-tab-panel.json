@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tab_panel_screenshots_tab_panels",
+  "info": {
+    "name": "screenshots Tab Panel",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

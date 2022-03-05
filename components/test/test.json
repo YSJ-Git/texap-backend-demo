@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_test_tests",
+  "info": {
+    "name": "Test",
+    "icon": "cloud-meatball"
+  },
+  "options": {},
+  "attributes": {
+    "testText": {
+      "type": "string",
+      "default": "기본값임"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_progresses",
+  "info": {
+    "name": "app Progress",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true
+    },
+    "btnUrl": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

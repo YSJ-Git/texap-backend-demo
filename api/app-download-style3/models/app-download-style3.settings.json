@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_download_style3s",
+  "info": {
+    "name": "app Download Style 3",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "DOWNLOAD APP"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let's Get Your Free Copy From Apple and Play Store"
+    },
+    "playStoreSubTitle": {
+      "type": "string",
+      "default": "Get It On",
+      "required": true
+    },
+    "playStoreTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Google Play"
+    },
+    "playStoreUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://play.google.com/store/apps"
+    },
+    "appleStoreSubTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Download on the"
+    },
+    "appleStoreTitle": {
+      "type": "string",
+      "default": "Apple Store",
+      "required": true
+    },
+    "appleStoreUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.apple.com/app-store/"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

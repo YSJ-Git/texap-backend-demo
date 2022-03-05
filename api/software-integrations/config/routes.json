@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/software-integrations",
+      "handler": "software-integrations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/software-integrations",
+      "handler": "software-integrations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/software-integrations",
+      "handler": "software-integrations.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

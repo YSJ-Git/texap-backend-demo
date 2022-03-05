@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_screenshots_tab_lists",
+  "info": {
+    "name": "screenshots Tab List",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_best_app_features_features",
+  "info": {
+    "name": "features",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string"
+    },
+    "iconBgClass": {
+      "type": "string",
+      "required": true,
+      "default": "icon"
+    }
+  }
+}

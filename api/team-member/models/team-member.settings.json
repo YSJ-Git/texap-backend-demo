@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_members",
+  "info": {
+    "name": "team Member",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "OUR EXPERTS"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Meet With Our Team Member"
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-member.member"
+    }
+  }
+}

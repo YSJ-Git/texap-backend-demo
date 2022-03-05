@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/intro-video-with-title",
+      "handler": "intro-video-with-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/intro-video-with-title",
+      "handler": "intro-video-with-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/intro-video-with-title",
+      "handler": "intro-video-with-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

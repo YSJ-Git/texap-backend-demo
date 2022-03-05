@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "404_error_pages",
+  "info": {
+    "name": "404ErrorPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shortDec": {
+      "type": "string",
+      "default": "The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+      "required": true
+    },
+    "btn": {
+      "type": "string",
+      "required": true,
+      "default": "Back To Home"
+    },
+    "btnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    }
+  }
+}

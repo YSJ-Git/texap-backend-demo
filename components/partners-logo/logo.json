@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_partners_logo_logos",
+  "info": {
+    "name": "logo",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

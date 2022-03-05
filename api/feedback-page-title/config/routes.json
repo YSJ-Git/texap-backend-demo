@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/feedback-page-title",
+      "handler": "feedback-page-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/feedback-page-title",
+      "handler": "feedback-page-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/feedback-page-title",
+      "handler": "feedback-page-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

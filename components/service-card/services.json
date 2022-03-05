@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_service_card_services",
+  "info": {
+    "name": "services",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "ri-eye-line"
+    },
+    "iconBgCalss": {
+      "type": "string",
+      "default": "icon",
+      "required": true
+    }
+  }
+}

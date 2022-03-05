@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "partner_style_twos",
+  "info": {
+    "name": "partner Style Two",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Trusted by world famous companies:"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partners-logo.logo"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_screenshots",
+  "info": {
+    "name": "app Screenshots",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "screenshots": {
+      "type": "component",
+      "repeatable": true,
+      "component": "app-screenshots.screenshots"
+    }
+  }
+}

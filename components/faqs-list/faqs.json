@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_faqs_list_faqs",
+  "info": {
+    "name": "faqs",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "longDec": {
+      "type": "richtext",
+      "required": true
+    },
+    "itemId": {
+      "type": "string"
+    }
+  }
+}

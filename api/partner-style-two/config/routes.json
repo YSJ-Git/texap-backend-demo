@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/partner-style-two",
+      "handler": "partner-style-two.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/partner-style-two",
+      "handler": "partner-style-two.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/partner-style-two",
+      "handler": "partner-style-two.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

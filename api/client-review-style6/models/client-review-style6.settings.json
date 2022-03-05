@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_review_style6s",
+  "info": {
+    "name": "client Review Style 6",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "CLIENT REVIEWS"
+    },
+    "title": {
+      "type": "string",
+      "default": "Customer Reviews About Our App"
+    },
+    "reviewItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "review-item.review-text"
+    }
+  }
+}

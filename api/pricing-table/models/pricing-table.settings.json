@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_tables",
+  "info": {
+    "name": "pricing Table",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string"
+    },
+    "pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-table.pricing"
+    }
+  }
+}

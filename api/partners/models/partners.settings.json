@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners",
+  "info": {
+    "name": "Partners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "partner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partners-logo.logo"
+    }
+  }
+}

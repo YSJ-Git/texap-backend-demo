@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_works_page_titles",
+  "info": {
+    "name": "how It Works Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "How It Works",
+      "required": true
+    },
+    "homePageText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homePageUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePage": {
+      "type": "string",
+      "default": "How It Works",
+      "required": true
+    },
+    "Steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "how-it-works.steps"
+    }
+  }
+}

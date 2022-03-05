@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "intro_video_with_titles",
+  "info": {
+    "name": "intro Video With Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "INTRO VIDEO",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Watch Our Most Watched Texap App Video"
+    },
+    "longText": {
+      "type": "text",
+      "required": true,
+      "default": "Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began. Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began."
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Get Started"
+    },
+    "btnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "videoImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "videoPlayIcon": {
+      "type": "string",
+      "required": true,
+      "default": "ri-play-line"
+    },
+    "youtubeVideoID": {
+      "type": "string",
+      "default": "bk7McNUjWgw",
+      "required": true
+    }
+  }
+}

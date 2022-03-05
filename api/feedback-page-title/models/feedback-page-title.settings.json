@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedback_page_titles",
+  "info": {
+    "name": "feedback Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Feedback",
+      "required": true
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "activePage": {
+      "type": "string",
+      "default": "Feedback",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-three-top-features",
+      "handler": "home-three-top-features.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-three-top-features",
+      "handler": "home-three-top-features.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-three-top-features",
+      "handler": "home-three-top-features.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

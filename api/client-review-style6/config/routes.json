@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/client-review-style-6",
+      "handler": "client-review-style6.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/client-review-style-6",
+      "handler": "client-review-style6.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/client-review-style-6",
+      "handler": "client-review-style6.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/funfact-style-one",
+      "handler": "funfact-style-one.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/funfact-style-one",
+      "handler": "funfact-style-one.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/funfact-style-one",
+      "handler": "funfact-style-one.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

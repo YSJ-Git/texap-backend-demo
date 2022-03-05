@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_stats",
+  "info": {
+    "name": "our Stats",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "OUR STATS"
+    },
+    "title": {
+      "type": "string",
+      "default": "Total User In This World",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

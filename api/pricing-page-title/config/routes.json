@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pricing-page-title",
+      "handler": "pricing-page-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pricing-page-title",
+      "handler": "pricing-page-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pricing-page-title",
+      "handler": "pricing-page-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

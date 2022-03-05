@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-banner-3",
+      "handler": "home-banner3.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-banner-3",
+      "handler": "home-banner3.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-banner-3",
+      "handler": "home-banner3.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

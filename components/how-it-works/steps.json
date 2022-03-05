@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_how_it_works_steps",
+  "info": {
+    "name": "Steps",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "string",
+      "default": "1",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Step 1",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Create a Texap Account",
+      "required": true
+    },
+    "longDec": {
+      "type": "richtext",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur adipiscing.",
+      "required": true
+    }
+  }
+}

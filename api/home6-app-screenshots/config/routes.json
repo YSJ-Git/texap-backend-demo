@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-6-app-screenshots",
+      "handler": "home6-app-screenshots.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-6-app-screenshots",
+      "handler": "home6-app-screenshots.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-6-app-screenshots",
+      "handler": "home6-app-screenshots.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

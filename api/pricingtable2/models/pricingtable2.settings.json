@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricingtable2s",
+  "info": {
+    "name": "pricing Table 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "PRICING TABLE"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "No Hidden Charge Applied, Choose Your Plan"
+    },
+    "pricingCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-table.pricing"
+    }
+  }
+}

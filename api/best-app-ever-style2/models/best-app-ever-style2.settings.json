@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "best_app_ever_style2s",
+  "info": {
+    "name": "best App Ever Style 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Most Probably You Are Getting Best App Ever",
+      "required": true
+    },
+    "longText": {
+      "type": "text",
+      "required": true,
+      "default": "Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text. Never missyour chance its just began."
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "best-app-features.features"
+    },
+    "btnOneText": {
+      "type": "string",
+      "required": true,
+      "default": "Start Free Trial"
+    },
+    "btnOneUrl": {
+      "type": "string",
+      "default": "/sign-in",
+      "required": true
+    },
+    "btnTwoUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/features"
+    },
+    "btnTwoText": {
+      "type": "string",
+      "required": true,
+      "default": "See All Features"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

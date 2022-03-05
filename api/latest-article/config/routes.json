@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/latest-article",
+      "handler": "latest-article.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/latest-article",
+      "handler": "latest-article.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/latest-article",
+      "handler": "latest-article.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

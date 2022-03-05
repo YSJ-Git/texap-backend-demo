@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page_titles",
+  "info": {
+    "name": "about Page Title",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "About Us"
+    },
+    "home": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "activePage": {
+      "type": "string",
+      "default": "About Us",
+      "required": true
+    }
+  }
+}

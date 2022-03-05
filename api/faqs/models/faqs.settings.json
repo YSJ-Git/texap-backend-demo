@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "faqs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Frequently Asked Questions",
+      "required": true
+    },
+    "homeText": {
+      "type": "string",
+      "default": "Home",
+      "required": true
+    },
+    "homeUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "activePage": {
+      "type": "string",
+      "default": "FAQ",
+      "required": true
+    },
+    "faqList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs-list.faqs"
+    },
+    "infoTitle": {
+      "type": "string",
+      "default": "Have any question in mind please call or mail us",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "default": "(+321) 895-980 008",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "default": "hello@texap.com"
+    }
+  }
+}

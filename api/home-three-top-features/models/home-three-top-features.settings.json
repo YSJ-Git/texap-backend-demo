@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_three_top_features",
+  "info": {
+    "name": "home Three Top Features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.feature-style-two"
+    }
+  }
+}

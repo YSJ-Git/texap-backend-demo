@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_style_twos",
+  "info": {
+    "name": "footer Style Two",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shortText": {
+      "type": "string",
+      "required": true,
+      "default": "est solution for your it startup business, consecteturadipiscing elit. Scelerisque amet odio velit, auctor nam elit nulla."
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.links"
+    },
+    "titleOne": {
+      "type": "string",
+      "default": "Company",
+      "required": true
+    },
+    "pageItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-menu.item",
+      "required": true
+    },
+    "titleTwo": {
+      "type": "string",
+      "default": "Support",
+      "required": true
+    },
+    "supportPageItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-menu.item",
+      "required": true
+    },
+    "titleThree": {
+      "type": "string",
+      "default": "Useful Links",
+      "required": true
+    },
+    "usefulPageItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-menu.item"
+    },
+    "titleFour": {
+      "type": "string",
+      "default": "Newsletter",
+      "required": true
+    },
+    "newsletterShortText": {
+      "type": "string",
+      "required": true,
+      "default": "Best solution for your it startup business, consecteturadipiscing elit."
+    },
+    "copyrightFooterText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

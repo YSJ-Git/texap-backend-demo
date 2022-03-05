@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_start_rating_ratings",
+  "info": {
+    "name": "rating",
+    "icon": "grin-stars"
+  },
+  "options": {},
+  "attributes": {
+    "starIcon": {
+      "type": "string",
+      "required": true,
+      "default": "ri-star-fill"
+    }
+  }
+}

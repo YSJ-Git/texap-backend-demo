@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cantact-page-title",
+      "handler": "cantact-page-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cantact-page-title",
+      "handler": "cantact-page-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cantact-page-title",
+      "handler": "cantact-page-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_feedback_tab_panel_feedback_tabs",
+  "info": {
+    "name": "feedback Tab",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "longText": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "free_trial_forms",
+  "info": {
+    "name": "free Trial Form",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "FREE TRIAL"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Start Your 14 Days Free Trials Today!"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started",
+      "required": true
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

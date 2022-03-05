@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "download_apps",
+  "info": {
+    "name": "download App",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    },
+    "googlePlaySubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "googlePlayTitle": {
+      "type": "string",
+      "required": true
+    },
+    "appleStoreSubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "appleStoreTitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "googlePlayUrl": {
+      "type": "string",
+      "required": true
+    },
+    "appleStoreUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

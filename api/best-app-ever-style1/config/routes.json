@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/best-app-ever-style-1",
+      "handler": "best-app-ever-style1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/best-app-ever-style-1",
+      "handler": "best-app-ever-style1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/best-app-ever-style-1",
+      "handler": "best-app-ever-style1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

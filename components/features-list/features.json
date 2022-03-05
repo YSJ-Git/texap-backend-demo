@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_features_list_features",
+  "info": {
+    "name": "features",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "iconBgClass": {
+      "type": "string",
+      "default": "icon"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_review_item_review_texts",
+  "info": {
+    "name": "review Text",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Londynn Vargas"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "longText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

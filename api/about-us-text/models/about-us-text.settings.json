@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_texts",
+  "info": {
+    "name": "about Us Text",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "ABOUT TEXAP"
+    },
+    "title": {
+      "type": "string",
+      "default": "A Few Words About Us",
+      "required": true
+    },
+    "longDec": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnOneText": {
+      "type": "string",
+      "required": false
+    },
+    "btnOneUrl": {
+      "type": "string"
+    },
+    "btnTwoText": {
+      "type": "string"
+    },
+    "btnTwoUrl": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

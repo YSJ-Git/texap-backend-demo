@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "download_app_style2s",
+  "info": {
+    "name": "download App Style 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "DOWNLOAD APP",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Let's Get Your Free Copy From Apple and Play Store",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "default": "Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.",
+      "required": true
+    },
+    "playStoreUrl": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    },
+    "playStoreSubTitle": {
+      "type": "string",
+      "default": "Get It On",
+      "required": true
+    },
+    "playStoreTitle": {
+      "type": "string",
+      "default": "Google Play",
+      "required": true
+    },
+    "appleStoreUrl": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "appleStoreSubTitle": {
+      "type": "string",
+      "default": "Download on the",
+      "required": true
+    },
+    "appleStoreTitle": {
+      "type": "string",
+      "default": "Apple Store",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

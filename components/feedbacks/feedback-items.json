@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_feedbacks_feedback_items",
+  "info": {
+    "name": "feedbackItems",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "shortDec": {
+      "type": "string",
+      "required": true
+    },
+    "task": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "start-rating.rating"
+    }
+  }
+}

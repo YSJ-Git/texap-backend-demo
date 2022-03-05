@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_progress_style2s",
+  "info": {
+    "name": "app Progress Style 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shapeImageOne": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shapeImageTwo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shapeImageThree": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shapeImageFour": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "fullImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "APP PROGRESS"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Set Up The Challenges and Track Your Progress"
+    },
+    "longDec": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Start Free Trial",
+      "required": true
+    },
+    "btnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    }
+  }
+}
